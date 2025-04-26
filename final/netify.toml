@@ -1,3 +1,8 @@
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Content-Type = "application/javascript"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
